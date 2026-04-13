@@ -1,4 +1,7 @@
 # replayOBS
+
+>Für grobe Rückblicke ist das vermutlich einer der simpelsten praktikablen Ansätze überhaupt, wenn man nur mit FFmpeg, Dateien/Segmenten und OBS arbeiten will.
+
 Das folgende Prinzip (siehe Skizze) wurde von mir zuerst unter Windows 10 mit einer lokal angebundenen Webcam getestet.
 So funktioniert es auch mit unseren IP-Kameras. Dazu hole ich mir mit FFmpeg den RTSP-Stream und splitte ihn in einen "UDP-Livestream" und eine "HLS Wiedergabelistendatei" auf. Ich möchte zwei HLS-Wiedergabelisten für den Abruf in OBS anlegen, einen "Short-Replay", der die letzten 5 Minuten und einen "Long-Replay", der den gesamten Kamerastream der Veranstaltung enthält.  
 - [Hier gibt es in der offiziellen FFmpeg-Dokumentation Infos zur Erzeugung der HLS-Wiedergabedateien](https://ffmpeg.org/ffmpeg-all.html#hls-2)  
