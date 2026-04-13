@@ -2,6 +2,10 @@
 
 Ein sehr einfacher Replay-Ansatz für OBS mit FFmpeg.
 
+>**Früher Denkansatz für ein sehr einfaches Replay.**
+>Mich interessierte nicht, wie man mit großem Broadcast-Budget arbeitet, sondern wie man mit einfachsten Mitteln einen großen Teil des praktischen Nutzens trotzdem erreicht.
+>Dass solche Low-Budget-Ansätze im etablierten Produktionsumfeld nicht immer freundlich aufgenommen wurden, gehört zur Geschichte dahinter.
+
 **Kein professionelles Replay-System, sondern ein schneller technischer Workaround:
 Live nach OBS, parallel Segmente schreiben, daraus grobes Replay abspielen.**
 
