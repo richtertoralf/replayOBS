@@ -1,5 +1,9 @@
 # replayOBS
 
+![Status](https://img.shields.io/badge/Status-Denkansatz-blue)
+![Stack](https://img.shields.io/badge/Stack-FFmpeg%20%2B%20OBS-green)
+![Budget](https://img.shields.io/badge/Budget-Low--Budget-orange)
+
 Ein sehr einfacher Replay-Ansatz für OBS mit FFmpeg.
 
 >**Früher Denkansatz für ein sehr einfaches Replay.**
